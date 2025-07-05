@@ -15,9 +15,9 @@ const { scheduler } = repl({
 });
 
 btnPlay.addEventListener("click", async () => {
-  await initAudioOnFirstClick();            // permission audio
+  await initAudioOnFirstClick();
 
-  cps(1);                                   // règle le tempo (1 cycle/s)
+  cps(1);
 
   const pattern = stack(
     s("bd sd hh").gain(0.8),
