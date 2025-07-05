@@ -26,7 +26,7 @@ module.exports = {
   ],
   devServer: {
     static: "./dist",
-    open: true,            // ouvre le navigateur
+    open: false,
     port: 8080,
   },
 };
